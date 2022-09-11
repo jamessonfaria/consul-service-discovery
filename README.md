@@ -8,7 +8,7 @@
     ex: consul agent -server -bootstrap-expect=3 -node=consulserver03 -bind=172.21.0.2 -data-dir=/var/lib/consul -config-dir=/etc/consul.d
 
 #### Realizar join entre servers
-- consul join <IP>
+- consul join <IP_MACHINE>
 
 #### Verificar membros do cluster
 - consul members
