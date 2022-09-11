@@ -33,3 +33,6 @@
 
 #### Criar clients com o retry join (alem de criar o client ja faz o join no cluster)
 -consul agent -bind=172.21.0.6 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -retry-join=172.21.0.2
+
+#### Para ativar o health check
+- Obs: Adicionar o paramttro "-enable-script-checks=true" na subida dos agentes servers
