@@ -18,4 +18,17 @@
     
     ex: consul agent -bind=172.21.0.2 -data-dir=/var/lib/consul -config-dir=/etc/consul.d
 
+#### Registrar um serviço
+- Criar o arquivo do serviço
+- Registrar o serviço no client com o comando: consul reload
+
+#### Usando o comando Dig para pesquisar servers e serviços
+- dig @localhost -p 8600 nginx.service.consul
+
+#### Encontrar em qual node o serviço esta registrado
+- consul catalog nodes -service nginx
+
+#### Detalhar todos os nodes existentes no consult
+- consul catalog nodes -detailed
+
 
