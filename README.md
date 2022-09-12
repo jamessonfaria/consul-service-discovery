@@ -39,3 +39,6 @@
 
 #### Subindo agentes servers apontando para arquivo de configuração
 - consul agent -config-dir=/etc/consul.d
+
+#### Gerar chave para criptografia no consul
+- consul keygen
