@@ -42,3 +42,6 @@
 
 #### Gerar chave para criptografia no consul
 - consul keygen
+
+#### Acessar a UI do consul para admin
+- http://localhost:8500/

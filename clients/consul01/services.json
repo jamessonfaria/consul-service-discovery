@@ -11,5 +11,6 @@
             "interval": "10s",
             "timeout": "1s"
         }
-    }
+    },
+    "encrypt": "J0TF738I6M69foTt2hcnIyC7A3eSwthrFN6dN5+4bFs="
 }
