@@ -35,4 +35,7 @@
 -consul agent -bind=172.21.0.6 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -retry-join=172.21.0.2
 
 #### Para ativar o health check
-- Obs: Adicionar o paramttro "-enable-script-checks=true" na subida dos agentes servers
+- Obs: Adicionar o parametro "-enable-script-checks=true" na subida dos agentes servers
+
+#### Subindo agentes servers apontando para arquivo de configuração
+- consul agent -config-dir=/etc/consul.d
